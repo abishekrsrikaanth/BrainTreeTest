@@ -4,9 +4,9 @@ require_once 'vendor/braintree/braintree_php/lib/Braintree.php';
 
 
 Braintree_Configuration::environment('sandbox');
-Braintree_Configuration::merchantId('6gj8564mvgpf2rtb');
-Braintree_Configuration::publicKey('mxqqtpgx8rxmzwpm');
-Braintree_Configuration::privateKey('3180f2f4069a605abbe194273822589d');
+Braintree_Configuration::merchantId('xxx');
+Braintree_Configuration::publicKey('xxxx');
+Braintree_Configuration::privateKey('xxxx');
 
 
 $brainTree_token = Braintree_ClientToken::generate();
